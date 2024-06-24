@@ -1,0 +1,340 @@
+header{
+    color:rgb(226, 177, 113);
+    text-align: center;
+    font-size: 46px;
+    font-family: 'ubuntu mono',monospace;
+    background-image:url(https://img.freepik.com/free-photo/white-flower-with-cooking-ingredients-table_181624-1096.jpg);
+    display: flex;
+    justify-content: center;
+}
+.navbar{
+    display:flex;
+    flex-direction: column;
+    background-color: gray;
+    height: 14vh;
+    width: 100vw;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-top:10px;
+   border: 2px solid black;
+   border-radius:15px;
+   align-items: center;
+}
+.navcontent{
+    display: flex;
+    justify-content:center ;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+    
+  }
+  
+  li {
+    float: left;
+    text-align: center;
+    margin: 15px;
+    border-radius: 20px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content:center  ;
+  }
+  
+  li a:hover {
+    background-color:yellow;
+}
+#container1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height:63vh;}
+
+    #container1::before{
+        content:'';
+        background: url("./1.jpg") no-repeat center center/cover;
+        width: 100vw;
+        height:59vh;
+        position: absolute;
+        top:0px;
+        left: 0px;
+        font-family: 'Ubuntu Mono', monospace;
+        margin-right:45px;
+        font-weight: bold;
+        z-index: -1;
+        opacity: 0.89;
+        border: 2px solid black;
+        border-bottom-left-radius: 100px;
+        background-image:url(https://img.freepik.com/free-photo/front-view-sweet-chocolate-cake-with-copy-space_23-2148834060.jpg) ;
+    }
+    #row1{
+        color:rgb(226, 177, 113);
+         font-weight:bold;
+         font-size: 2rem;
+         text-align: center;
+         margin-top: 35px;}
+
+
+
+
+
+ .btn{margin-top:15px;
+    border: 3px solid white;
+    border-radius:15px;
+    background-color:brown;
+    font-size:20px;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: red;
+}
+#container3{
+    display: flex;
+    justify-content: space-evenly;
+}
+#row2{
+    width:24vw;
+    height:21vh;
+    box-shadow: 2px 7px 16px 19px;
+     margin-top:51px;
+     margin-bottom: 51px;
+     display: flex;
+    justify-content: center;
+     align-items: flex-end;
+     position: relative;
+     margin-right: 38px;
+     border-radius: 40px;}
+     #row2::before{
+        content: '';
+        background: url('2.jpeg') no-repeat center center/cover;
+        position: absolute;
+        top: 0px;
+        left:0px;
+        width: 24vw;
+        height:21vh;
+        z-index: -1;
+        border-radius: 40px;
+        background-image:url(https://img.freepik.com/free-photo/chocolate-cookies-dark-table_176474-522.jpg) ;
+    }
+    #row3{
+        position: relative;
+        width: 24vw;
+        height:21vh;
+        display: flex;
+        justify-content: center;
+         align-items: flex-end;
+         box-shadow: 2px 7px 16px 19px;
+         margin-top:51px;
+         margin-bottom: 51px;
+         
+         margin-left: 38px;
+         border-radius: 40px;
+    }
+    #row3::before{
+        content: '';
+        background: url('3.jpeg') no-repeat center center/cover;
+        position: absolute;
+        top:0px;
+        left:0px;
+        width: 24vw;
+        height:21vh;
+        z-index: -1;
+        border-radius: 40px;
+        background-image: url(https://img.freepik.com/free-photo/close-up-glazed-donuts_23-2148628332.jpg);
+    }
+    #top3{
+        text-align: center;
+        color:rgb(226, 177, 113);
+        font-family: 'Ubuntu Mono', monospace;
+    }
+    #container4{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        margin: 41px;
+    }
+    #row4{
+        width: 29vw;
+        height: 360px;
+        border: 2px solid black;
+        background:url('a1.jpeg') no-repeat center center/cover; 
+        display: flex;
+        justify-content:center;
+        align-items:flex-end;
+        border-radius: 15px;
+        background-image: url(https://img.freepik.com/free-photo/delicious-brownies-arrangement-plate_23-2149349273.jpg);
+    }
+    #row5{
+        width: 29vw;
+        height: 360px;
+        border: 2px solid black;
+        background:url('a2.jpeg') no-repeat center center/cover;
+        display: flex;
+        justify-content:center;
+        align-items:flex-end;
+        border-radius: 15px;
+        background-image:url(https://img.freepik.com/free-photo/high-angle-chocolate-muffins-cooling-rack-with-copy-space_23-2148569668.jpg) ;
+    }
+    #row6{
+        width: 29vw;
+        height: 360px;
+        border: 2px solid black;
+        background:url('a3.jpeg') no-repeat center center/cover;
+        display: flex;
+        justify-content:center;
+        align-items:flex-end;
+        border-radius: 15px;
+        background-image:url(https://img.freepik.com/free-photo/view-plate-filled-with-delicious-sweet-cupcake-desserts_23-2150679704.jpg)
+    }
+body{
+    background-image:url(https://img.freepik.com/free-photo/chocolate-strawberry-ice-cream-black-table_23-2148268206.jpg) ;
+}
+    footer{
+        text-align: center;
+    }
+    #ContactUs{
+        width:100vw;
+        height:100vh;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+       background-image:url(https://img.freepik.com/free-photo/top-view-delicious-little-candies_23-2148394980.jpg) ;
+    }
+    .form-shape input, .form-shape select, .form-shape textarea{
+        width: 92%;
+        padding: 0.5rem;
+     }
+    ::placeholder{
+        color: rgb(109, 11, 11);
+    }
+    @media only screen and (max-width:1131px){
+        #row4{
+            width: 42vw;
+        }
+        #row5{
+            width:45vw;
+        }
+        #row6{
+            margin-top: 20px;
+            width:90vw;
+        }
+    }
+        @media only screen and (min-width:600px) and (max-width:781px){
+        
+            #row4{
+                width:84vw;
+                margin: auto;
+                margin-left: 22px;
+    }
+    #row5{
+        
+        width:84vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+    #row6{
+        width:84vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+}
+    @media only screen and (max-width:600px){
+        #row4{
+            width:78vw;
+            margin: auto;
+            margin-left: 3px;
+        }
+        #row5{
+            
+            width:78vw;
+            margin: auto;
+            margin-top: 20px;
+            margin-left: 3px;
+        }
+        #row6{
+            width:78vw;
+            margin: auto;
+            margin-top: 20px;
+            margin-left: 3px;
+        }
+    }
+    @media only screen and (min-height:1000px){
+        #navbar{
+            height:10vh;
+        }
+        #container1::before{
+            height:39vh;
+        }
+        #container1{
+            height:44vh
+        }
+    }
+    .menu{
+        width:100% ;
+        max-width: px;
+    margin: 0 auto;
+    background-image: url(https://img.freepik.com/free-vector/elegant-menu-cover-design_1048-9224.jpg);
+    color:azure;
+    }
+    .menu-title {
+        text-align: center;
+        margin-top: 0;
+      }
+      .menu-category {
+        margin-bottom: 30px;
+      }
+      .category-title {
+        text-transform: uppercase;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .item-list {
+        list-style:none;
+        padding: 60px;
+        margin: 0;
+        background-image:url(https://img.freepik.com/premium-photo/bay-leaf-black-pepper-black-background-condiments-flat-view-space-text_350891-622.jpg);
+      }
+    
+      .item-name {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+    
+      .item-image {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        margin-right: 15px;
+      }
+    
+      .item-details {
+        flex: 1;
+      }
+    
+      .item-title {
+        margin-top: 0;
+      }
+    
+      .item-description {
+        margin-bottom: 5px;
+      }
+    
+      .item-price {
+        font-weight: bold;
+      }
